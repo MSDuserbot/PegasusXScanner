@@ -313,7 +313,7 @@ Format : rmenf <user id / as reply>
 Format : addins <user id / as reply>
 `rmins` - Removes a user from Inspector.
 Format : rmins <user id / as reply>
-`inspector` - Lists all inspectors.
+`inspectors` - Lists all inspectors.
 `join` - Joins a chat.
 Format : join <chat username or invite link>
 `leave` - Leaves a chat.
