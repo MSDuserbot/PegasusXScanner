@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.client.send_file(event.chat_id, file="http://telegra.ph/file/082120f815dbcc583f219.mp4", caption="Connecting to Lovely Systems", reply_to=event)
+    msg = await event.client.send_file(event.chat_id, file="http://telegra.ph/file/082120f815dbcc583f219.mp4", caption="Connecting to Pegasus X Systems", reply_to=event)
     time.sleep(1)
     await msg.edit("Initialising ✪●●●●●")
     time.sleep(1)
@@ -65,7 +65,7 @@ async def status(event):
     await msg.edit(on_string.format(Enforcer=user_status, name=sender.first_name))
 
 
-@System.on(system_cmd(pattern=r"Lovely stats"))
+@System.on(system_cmd(pattern=r"gstats"))
 async def stats(event):
     msg = f"Processed {System.processed} messages since last restart."
     msg += f"\n{len(ENFORCERS)} Enforcers & {len(INSPECTORS)} Inspectors"
