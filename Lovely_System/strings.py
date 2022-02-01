@@ -1,10 +1,10 @@
 
 on_string = """
 ◇───────✭─✭───────◇
-** Result For Pegasus
+** Result For Pegasus **
 ◇───────✭─✭───────◇
-➣ ɴᴀᴍᴇ - {name}
-➣ ʀᴀɴᴋ - {Enforcer}
+✪ ɴᴀᴍᴇ - **{name}**
+✪ ʀᴀɴᴋ - **{Enforcer}**
 """
 
 # Make sure not to change these too much
