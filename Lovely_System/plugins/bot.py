@@ -43,7 +43,7 @@ PG_IMG = "http://telegra.ph/file/ff4816777018617806e36.mp4"
 
 @System.bot.on(events.NewMessage(pattern="[/!]start"))
 async def sup(event):
-    await event.reply_animation(PG_IMG,caption="Hello I'm Pegasus X Scanner I'm made for public safety`s")
+    await event.reply(PG_IMG,caption="Hello I'm Pegasus X Scanner I'm made for public safety`s")
 
 
 
